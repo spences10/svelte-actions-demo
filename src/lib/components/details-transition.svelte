@@ -4,7 +4,7 @@
 	export let open = false
 </script>
 
-<section class="border">
+<section class="border-4 rounded-lg border-primary">
 	<button
 		aria-controls="accordion__content_1"
 		aria-expanded={open}

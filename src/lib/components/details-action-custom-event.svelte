@@ -36,7 +36,7 @@
 	}
 </script>
 
-<section class="border not-prose">
+<section class="border-4 rounded-lg not-prose border-primary">
 	<button
 		aria-controls="accordion__content_3"
 		aria-expanded={open}

@@ -58,7 +58,7 @@ devDependencies:
     version: 4.2.19
   svelte-check:
     specifier: ^4.0.5
-    version: 4.0.5(svelte@4.2.19)(typescript@5.6.3)
+    version: 4.0.6(svelte@4.2.19)(typescript@5.6.3)
   svelte-preprocess:
     specifier: ^6.0.3
     version: 6.0.3(postcss-load-config@6.0.1)(postcss@8.4.47)(svelte@4.2.19)(typescript@5.6.3)
@@ -1469,8 +1469,8 @@ packages:
       reusify: 1.0.4
     dev: true
 
-  /fdir@6.4.0:
-    resolution: {integrity: sha512-3oB133prH1o4j/L5lLW7uOCF1PlD+/It2L0eL/iAqWMB91RBbqTewABqxhj0ibBd90EEmWZq7ntIWzVaWcXTGQ==}
+  /fdir@6.4.2:
+    resolution: {integrity: sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ==}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -2313,8 +2313,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@4.0.5(svelte@4.2.19)(typescript@5.6.3):
-    resolution: {integrity: sha512-icBTBZ3ibBaywbXUat3cK6hB5Du+Kq9Z8CRuyLmm64XIe2/r+lQcbuBx/IQgsbrC+kT2jQ0weVpZSSRIPwB6jQ==}
+  /svelte-check@4.0.6(svelte@4.2.19)(typescript@5.6.3):
+    resolution: {integrity: sha512-2XwmQNJaKbenJbvu5at+DuRpvF4v73Zu7f0/WkMl1O7WDm/IfF+E13t8D0nnRiRcMsNYm9ufHyLwfeMEnebpdg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -2323,8 +2323,8 @@ packages:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
-      fdir: 6.4.0
-      picocolors: 1.1.0
+      fdir: 6.4.2
+      picocolors: 1.1.1
       sade: 1.8.1
       svelte: 4.2.19
       typescript: 5.6.3

@@ -1,8 +1,9 @@
-<script>
-	import '../app.css'
+<script lang="ts">
+	import '../app.css';
+
+	let { children } = $props();
 </script>
 
-
-<main class="container max-w-3xl mx-auto px-4 mb-20 flex-grow prose-xl">
-	<slot />
+<main class="container prose-xl mx-auto mb-20 max-w-3xl flex-grow px-4">
+	{@render children()}
 </main>

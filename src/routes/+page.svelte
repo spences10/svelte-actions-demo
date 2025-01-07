@@ -21,7 +21,7 @@
 	</ol>
 </details>
 
-<div class="mt-[70vh]" />
+<div class="mt-[70vh]"></div>
 
 <DetailsTransition
 	text="HTTP response status codes indicate whether a specific HTTP
@@ -37,7 +37,7 @@
 	</ol>
 </DetailsTransition>
 
-<div class="mt-[70vh]" />
+<div class="mt-[70vh]"></div>
 
 <DetailsAction
 	text="HTTP response status codes indicate whether a specific HTTP
@@ -53,7 +53,7 @@
 	</ol>
 </DetailsAction>
 
-<div class="mt-[70vh]" />
+<div class="mt-[70vh]"></div>
 
 <DetailsActionCustomEvent
 	text="HTTP response status codes indicate whether a specific HTTP

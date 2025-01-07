@@ -65,7 +65,7 @@
 	</div>
   {#if isVisible}
     <div class="flex items-center justify-center">
-      <div use:confetti />
+      <div use:confetti></div>
     </div>
   {/if}
 </section>

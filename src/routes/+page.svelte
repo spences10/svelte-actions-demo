@@ -3,11 +3,11 @@
 		DetailsAction,
 		DetailsActionCustomEvent,
 		DetailsTransition,
-	} from '$lib/components'
+	} from '$lib/components';
 </script>
 
-<details class="border-4 rounded-lg border-primary mt-[30vh]">
-	<summary class='p-4'>
+<details class="border-primary mt-[30vh] rounded-lg border-4">
+	<summary class="p-4">
 		HTTP response status codes indicate whether a specific HTTP
 		request has been successfully completed. Responses are grouped in
 		five classes:
@@ -69,4 +69,4 @@
 	</ol>
 </DetailsActionCustomEvent>
 
-<div class='mt-[70vh]'></div>
+<div class="mt-[70vh]"></div>

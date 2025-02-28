@@ -1,17 +1,17 @@
 <script lang="ts">
-	import { slide } from 'svelte/transition'
-	export let text = ''
-	export let open = false
+	import { slide } from 'svelte/transition';
+	export let text = '';
+	export let open = false;
 </script>
 
-<section class="border-4 rounded-lg border-primary">
+<section class="border-primary rounded-lg border-4">
 	<button
 		aria-controls="accordion__content_1"
 		aria-expanded={open}
 		tabindex="0"
 		id="accordion__title_1"
 		on:click={() => {
-			open = !open
+			open = !open;
 		}}
 	>
 		<div class="flex items-center text-left">

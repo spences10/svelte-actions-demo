@@ -26,7 +26,7 @@
 				animation.reverse();
 				animation.pause();
 			}
-			node.dispatchEvent(new CustomEvent('animationEnd'));
+			node.dispatchEvent(new CustomEvent('animationend'));
 		};
 		return {
 			update: () => {
@@ -57,7 +57,7 @@
 	</button>
 	<div
 		use:slide={open}
-		on:animationEnd={async () => {
+		on:animationend={async () => {
 			isVisible = false;
 			await tick();
 			isVisible = true;
